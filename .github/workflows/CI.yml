@@ -39,7 +39,7 @@ jobs:
       run: 'pwd'
 
     - name: List file
-      run: 'la -al'
+      run: 'ls -al'
 
     - name: Install Dependencies
       run: 'mvn compile'
