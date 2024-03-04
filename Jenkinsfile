@@ -7,6 +7,7 @@ pipeline {
                 script {
                     // Install Apache2
                     sh 'sudo apt-get update 8'
+                    sh 'echo 8'
                     sh 'sudo apt-get install apache2 -y'
                 }
             }
