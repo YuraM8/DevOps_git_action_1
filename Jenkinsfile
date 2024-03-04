@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Install Apache2
-                    sh 'sudo apt-get update'
+                    sh 'sudo apt-get update -y'
                     sh 'sudo apt-get install apache2 -y'
                 }
             }
