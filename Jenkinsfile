@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Read Apache log file
-                    sh 'tail -f /var/log/apache2/access.log > apache_log.txt &'
+                    sh 'cat /var/log/apache2/access.log > apache_log.txt &'
                 }
             }
         }
